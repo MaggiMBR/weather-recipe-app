@@ -1,0 +1,225 @@
+body {
+  color: white;
+  display: block;
+  font-family: "Architects Daughter", cursive;
+  margin: 15px auto;
+  padding: 10px 50px;
+  width: 850px;
+}
+
+h1 {
+  color: #f7b432;
+  font-size: 30px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #ef6c39;
+  font-size: 30px;
+}
+h3 {
+  font-size: 25px;
+  margin: 0 auto;
+}
+
+h4 {
+  color: #ef6c39;
+  font-size: 70px;
+  margin: 0 auto;
+  text-align: center;
+  height: 65px;
+}
+
+button {
+  background: #f7b432;
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+  color: #194545;
+  padding: 1px 10px;
+}
+
+button:hover {
+  color: white;
+  background: #ef6c39;
+  cursor: pointer;
+}
+
+strong {
+  color: #ef6c39;
+}
+
+button,
+.search-info {
+  border-radius: 8px;
+  font-family: "Architects Daughter", cursive;
+  font-size: 16px;
+  transition: all 200ms ease;
+}
+
+img {
+  margin: auto;
+  display: block;
+}
+
+.card-info,
+.card-B,
+.card-box {
+  border-radius: 15px;
+  display: block;
+  margin: 0 auto;
+}
+
+.card-info,
+.card-B {
+  background: #32786c;
+  padding: 15px;
+}
+
+.card-box {
+  padding: 15px 0;
+}
+.city-name-box {
+  margin: 15px 0 0 0;
+}
+
+.search-info {
+  padding: 1px 0 1px 5px;
+}
+
+.date-info {
+  margin: auto;
+  text-align: right;
+}
+
+.weather-icon {
+  color: orange;
+  font-size: large;
+}
+
+.actual-time {
+  color: white;
+  font-size: 16px;
+  margin: 0;
+}
+
+.time {
+  color: #194545;
+  font-size: 18px;
+  margin: 0;
+}
+
+.current-weather-type {
+  color: #ef6c39;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.actual-degree-info,
+.actual-extra-info {
+  background-color: #e7eff3;
+  border-radius: 15px;
+}
+
+.actual-degree-info,
+.actual-extra-info {
+  height: 111px;
+  width: 328px;
+}
+
+.actual-box {
+  margin: 5px auto;
+  height: 115px;
+  width: 314px;
+}
+
+.actual-extra-info {
+  margin-left: 5px;
+}
+
+.extra-text-info {
+  font-size: 18px;
+  text-align: justify;
+  margin: 9px 0 9px 6px;
+  color: #194545;
+}
+
+.actual-min-max-dg {
+  color: #f7b432;
+  font-size: 22px;
+  margin: 0 auto;
+  text-align: right;
+}
+
+.card-weather-day {
+  border: none;
+  display: block;
+  height: 100px;
+  margin: 0 auto;
+  width: 524px;
+}
+
+.box-day-degree {
+  height: 100px;
+}
+
+.weather-day-date {
+  color: #194545;
+}
+
+.weather-day-temperatures,
+.weather-day-date,
+.weather-day-date {
+  font-size: 16px;
+  text-align: center;
+}
+
+.info-day {
+  background-color: #e7eff3;
+  border: #32786c solid;
+  border-radius: 10px;
+  padding: 0;
+}
+
+.weather-day-temp-max {
+  color: #ef6c39;
+}
+
+.weather-day-temp-min {
+  color: #f7b432;
+}
+
+.card-video {
+  background-color: #f5f1fd;
+  border: none;
+  border-radius: 15px;
+  display: block;
+  margin: 8px auto;
+  width: 224px;
+  height: 180px;
+}
+
+.recipe-info {
+  color: #194545;
+  padding: 5px 0;
+}
+
+.video-recipe {
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 130px;
+}
+
+.coder-info {
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.coder {
+  color: #ef6c39;
+}
+
+.coder:hover {
+  color: white;
+}
