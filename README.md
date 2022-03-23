@@ -28,7 +28,7 @@ Here you can find the link of the site: https://lucid-cray-15320a.netlify.app
 
 -The site provides a forecast via Open Weather Map API from the actual location and over 200,000 cities. 
         
--It displays current temperature, description, windspeed, humidity.
+-It displays current temperature, description, windspeed, humidity and  5-days forecast.
         
--Additional features include: 5-days forecast.
+-Additional features include: video of an ecuadorian recipe.
         
