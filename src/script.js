@@ -1,11 +1,16 @@
+// Coder API key 
+const apiKey = "f28fa454c198fbfeaef6e3f85f051b68";
+
+// Open weather 
+const apiBaseUrl = "https://api.openweathermap.org/data/2.5";
+
 // Current position
 function showPosition(position) {
   let latitude = position.coords.latitude;
   let longitude = position.coords.longitude;
 
   let units = "metric";
-  let apiKey = "f28fa454c198fbfeaef6e3f85f051b68";
-  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=${units}`;
+  let apiUrl = `${apiBaseUrl}/weather?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=${units}`;
 
   axios.get(apiUrl).then(showTemperature);
   axios.get(apiUrl).then(showCity);
@@ -71,9 +76,8 @@ formCity.addEventListener("submit", handleSubmit);
 
 // Default city
 function search(city) {
-  let apiKey = "f28fa454c198fbfeaef6e3f85f051b68";
   let units = "metric";
-  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=${units}`;
+  let apiUrl = `${apiBaseUrl}/weather?q=${city}&appid=${apiKey}&units=${units}`;
   axios.get(apiUrl).then(displayWeather);
 }
 
@@ -126,7 +130,6 @@ function displayWeather(response) {
 
   // Date info
   let h3 = document.querySelector("h3");
-  //let actualTime = document.querySelector("#actual-time");
   h3.innerHTML = formatDate(response.data.dt * 1000);
 
   // Link to city coodinates
@@ -172,8 +175,7 @@ function formatDate(timestamp) {
 // City coordinates
 function getForcast(coordinates) {
   let units = "metric";
-  let apiKey = "f28fa454c198fbfeaef6e3f85f051b68";
-  let apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${coordinates.lat}&lon=${coordinates.lon}&exclude={part}&appid=${apiKey}&units=${units}`;
+  let apiUrl = `${apiBaseUrl}/onecall?lat=${coordinates.lat}&lon=${coordinates.lon}&exclude={part}&appid=${apiKey}&units=${units}`;
 
   axios.get(apiUrl).then(displayWeatherDay);
 }
