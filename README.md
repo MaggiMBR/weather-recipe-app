@@ -2,7 +2,7 @@
         
 <p align="center">
   <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/029/918/original/weather.png?1648048352"
-        alt="weatherRecipe-app" alt="Edit Building Page (screenshot)" height="300"
+        alt="weatherRecipe-app" alt="Edit Building Page (screenshot)" height="400"
 </p>
 
 ## Geneal information
