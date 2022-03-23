@@ -18,6 +18,8 @@
 -The icons are obtained at: https://kit.fontawesome.com
         
 -The data of the weather is obtained at: https://openweathermap.org/api
+                
+-To see a demo of the site go to: https://lucid-cray-15320a.netlify.app
 
 
 ## Site description
