@@ -17,11 +17,11 @@ Here you can find the link of the site: https://lucid-cray-15320a.netlify.app
         
 -The code is open source and hosted by Netlify.
 
--The fonts are obtained at: https:/fonts.googleapis.com
+-The fonts are obtained at: https:/fonts.googleapis.com`
 
--The icons are obtained at: https://kit.fontawesome.com
+-The icons are obtained at: `https://kit.fontawesome.com`
         
--The data of the weather is obtained at: https://openweathermap.org/api
+-The data of the weather is obtained at: `https://openweathermap.org/api`
 
 
 ## Site description
