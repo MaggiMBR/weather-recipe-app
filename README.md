@@ -12,7 +12,9 @@ Here you can find the link of the site: https://lucid-cray-15320a.netlify.app
 -This project is built in VS code.
 
 -The programing languages used are HTML, CSS and JavaScript.
-
+     
+-The framework used is Bootstrap.
+        
 -The code is open source and hosted by Netlify.
 
 -The fonts are obtained at: https:/fonts.googleapis.com
