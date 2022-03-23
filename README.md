@@ -21,4 +21,6 @@
 
 
 ## Site description
+
+The iste provides forecast via Open Weather Map API. It displays current temperature, description, windspeed, humidity. Additional features include: 5-days forecast.
         
