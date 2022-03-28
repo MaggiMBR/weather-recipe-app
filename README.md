@@ -5,7 +5,7 @@
         alt="weatherRecipe-app" alt="Edit Building Page (screenshot)" height="400"
 </p>
 
-Here you can find the link of the site: https://lucid-cray-15320a.netlify.app
+Here you can find the link of the site: https://weather-maggib.netlify.app
 
 ## Geneal information
 
